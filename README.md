@@ -2,4 +2,4 @@
 
 The classical Pac Man Game with my own customizations
 
-(images/screenshot.png)[Game Screenshot]
+![Game Screenshot](images/screenshot.png)
