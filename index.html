@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>JacMan</title>
+		<style>
+			body {
+				background: #221c3d;
+				text-align: center;
+			}
+			*{padding:0;margin:0;}
+			.wrapper{
+				width: 100%;
+				height: 100%;
+				margin:0 auto;
+				line-height:36px;
+				text-align:center;
+				color:#999;
+			}
+			canvas{display:block;background: #221c3d;}
+			.mod-botton{
+				height: 32px;
+				padding: 15px 0;
+				text-align: center;
+			}
+		</style>
+		<script>
+			if(window.top != window.self ) {
+			    window.top.location = self.location.href;
+			}
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<canvas id="canvas" ></canvas>
+		</div>
+		<script src="game.js"></script>
+		<script src="index.js"></script>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+		<!-- <embed name="GoodEnough" src="./sounds/game.mp3" loop="true" hidden="true" autostart="true"> -->
+		
+			<!-- <audio controls autoplay loop>
+			<source src="./sounds/game.mp3" type="audio/ogg">
+			<embed src="./sounds/game.mp3" autostart="true" loop="true" hidden="true"> 
+		</audio> -->
+
+	</body>
+</html>
